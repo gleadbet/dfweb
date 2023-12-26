@@ -1,0 +1,53 @@
+/* @import url("https://code.highcharts.com/css/highcharts.css"); */
+
+/* NOTE: The line above defaults all colors in the highchart setup (like color plot ranges), so comment out if you want to manipulate */
+
+#container {                     /*- Accura Head Temp */
+  min-width: 310px;
+  max-width: 400px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+#container1 {                    /*- Heartbeat  */
+  min-width: 310px;
+  max-width: 400px;
+  height: 300px;
+  margin: 10 auto;
+}
+
+#container2 {
+  min-width: 310px;
+  max-width: 400px;
+  height: 300px;
+  margin: 10 auto;
+}
+
+#container3 {
+  min-width: 310px;
+  max-width: 400px;
+  height: 300px;
+  margin: 10 auto;
+}
+
+#container4 {
+  min-width: 310px;
+  max-width: 400px;
+  height: 300px;
+  margin: 10 auto;
+}
+/* 
+.highcharts-yaxis .highcharts-minor-tick {
+  stroke-width: 1px;
+  stroke: #999;
+}
+*/
+#chart-gauge, #chart-pie, #chart-column, #chart-line {
+  display: block;
+  min-width: 100px;
+  max-width: 350px;
+  height: 150px;
+  margin: 0 auto;
+} 
+
+
